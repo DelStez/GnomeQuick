@@ -347,6 +347,7 @@ namespace GnomeQuick
   
             while (index < n) 
             {
+                comprassion2+=2;
                 if (index == 0)
                     index++;
                 if (arr[index] >= arr[index - 1])
